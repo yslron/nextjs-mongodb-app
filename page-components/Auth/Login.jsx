@@ -52,7 +52,7 @@ const Login = () => {
   return (
     <Wrapper className={styles.root}>
       <div className={styles.main}>
-        <h1 className={styles.title}>Login to App</h1>
+        <h1 className={styles.title}>Login to Spark</h1>
         <form onSubmit={onSubmit}>
           <Input
             ref={emailRef}
