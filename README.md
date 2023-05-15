@@ -63,22 +63,11 @@ An [**Next.js**](https://github.com/zeit/next.js/) and [**MongoDB**](https://www
 
 <div align="center">
   
-<sup>Have any features that interest you, [make an issue](https://github.com/hoangvvo/nextjs-mongodb-app/issues). Would like to work on a feature, [make a PR](https://github.com/hoangvvo/nextjs-mongodb-app/pulls).<sup>
-  
+
 </div>
 
 <h2 align="center">Guide</h2>
 
-This project accompanies the following posts:
-
-- [User authentication (using Passport.js)](https://hoangvvo.com/blog/next-js-and-mongodb-app-1)
-- [User profile and Profile Picture](https://hoangvvo.com/blog/next-js-and-mongodb-app-2)
-- [Email Verification, Password Reset/Changee](https://hoangvvo.com/blog/next-js-and-mongodb-app-3)
-- [Posts and comments](https://hoangvvo.com/blog/next-js-and-mongodb-app-4)
-
-Also check them out on [dev.to](https://dev.to/hoangvvo).
-
-Although the project is written to be secure, its simplicity requires careful considerations for usage in sensitive productions. [File an issue](https://github.com/hoangvvo/nextjs-mongodb-app/issues/new/choose) if you spot any security problems.
 
 <h3 align="center">Dependencies</h3>
 
