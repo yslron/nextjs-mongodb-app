@@ -7,6 +7,10 @@ const LoginPage = () => {
     <>
       <Head>
         <title>Login</title>
+        <meta
+          name="Login Page"
+          content="Login Page for User to Login and Find Feed"
+        />
       </Head>
       <Login />
     </>

@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { ValidateProps } from '@/api-lib/constants';
 import { updateUserPasswordByOldPassword } from '@/api-lib/db';
 import { auths, validateBody } from '@/api-lib/middlewares';
