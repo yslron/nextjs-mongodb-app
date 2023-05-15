@@ -12,8 +12,6 @@ export default function MyApp({ Component, pageProps }) {
     <ThemeProvider>
       <Layout>
         <Head>
-        
-          {/* Other meta tags, stylesheets, etc. */}
         </Head>
         <Component {...pageProps} />
         <Toaster />
