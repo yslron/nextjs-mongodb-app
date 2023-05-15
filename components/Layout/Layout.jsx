@@ -5,11 +5,15 @@ import styles from './Layout.module.css';
 import Nav from './Nav';
 
 const Layout = ({ children }) => {
+  const pageTitle = 'Spark Idea'; // Replace with your desired page title
+  const appDescription = "Spark Ideas is a tool for the modern world to discover, create, and share ideas with the world.";
   return (
     <>
  
       <Head>
-        <title>Next.js MongoDB App</title>
+        <title>{pageTitle}</title>
+          <meta name="description" content={appDescription} />
+          <meta property="og:image" content="/public/images/og.png" />
         <meta
           key="viewport"
           name="viewport"
