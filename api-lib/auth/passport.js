@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { findUserForAuth, findUserWithEmailAndPassword } from '@/api-lib/db';
 import passport from 'passport';
 import { Strategy as LocalStrategy } from 'passport-local';

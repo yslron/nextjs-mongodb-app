@@ -60,4 +60,3 @@ export async function insertPost(db, { content, creatorId }) {
   post._id = insertedId;
   return post;
 }
-
