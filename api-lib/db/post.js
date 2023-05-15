@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { ObjectId } from 'mongodb';
 import { dbProjectionUsers } from './user';
 
@@ -59,3 +60,4 @@ export async function insertPost(db, { content, creatorId }) {
   post._id = insertedId;
   return post;
 }
+

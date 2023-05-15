@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 export const ncOpts = {
   onError(err, req, res) {
     console.error(err);

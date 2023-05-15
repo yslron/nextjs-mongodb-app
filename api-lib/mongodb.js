@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { MongoClient } from 'mongodb';
 
 let indexesCreated = false;

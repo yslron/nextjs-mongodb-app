@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import styles from './User.module.css';
 import UserHeader from './UserHeader';
 import UserPosts from './UserPosts';

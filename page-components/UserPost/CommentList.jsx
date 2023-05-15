@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Button } from '@/components/Button';
 import { Comment } from '@/components/Comment';
 import { Container, Spacer } from '@/components/Layout';

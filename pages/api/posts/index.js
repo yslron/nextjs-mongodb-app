@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 import { ValidateProps } from '@/api-lib/constants';
-import { findPosts, insertPost } from '@/api-lib/db';
+import { findPosts, insertPost} from '@/api-lib/db';
 import { auths, validateBody } from '@/api-lib/middlewares';
 import { getMongoDb } from '@/api-lib/mongodb';
 import { ncOpts } from '@/api-lib/nc';
@@ -46,5 +46,6 @@ handler.post(
     return res.json({ post });
   }
 );
+
 
 export default handler;

@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { getMongoClient } from '@/api-lib/mongodb';
 import MongoStore from 'connect-mongo';
 import nextSession from 'next-session';

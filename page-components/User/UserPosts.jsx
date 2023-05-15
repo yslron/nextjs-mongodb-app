@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Button } from '@/components/Button';
 import { Container, Spacer } from '@/components/Layout';
 import Wrapper from '@/components/Layout/Wrapper';

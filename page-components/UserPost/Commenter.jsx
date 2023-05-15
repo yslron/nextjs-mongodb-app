@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Avatar } from '@/components/Avatar';
 import { Button } from '@/components/Button';
 import { Input } from '@/components/Input';

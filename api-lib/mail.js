@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 // This project uses the nodemailer library to send email
 // However, it is recommended to switch over to dedicated email services
 // like Mailgun, AWS SES, etc.

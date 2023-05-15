@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { findUserByUsername } from '@/api-lib/db';
 import { getMongoDb } from '@/api-lib/mongodb';
 import { User } from '@/page-components/User';

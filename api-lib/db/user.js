@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import bcrypt from 'bcryptjs';
 import { ObjectId } from 'mongodb';
 import normalizeEmail from 'validator/lib/normalizeEmail';

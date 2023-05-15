@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { ObjectId } from 'mongodb';
 import { dbProjectionUsers } from '.';
 

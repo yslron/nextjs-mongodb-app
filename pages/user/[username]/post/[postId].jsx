@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { findPostById } from '@/api-lib/db';
 import { getMongoDb } from '@/api-lib/mongodb';
 import { UserPost } from '@/page-components/UserPost';

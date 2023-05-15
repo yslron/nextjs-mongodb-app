@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 export const ValidateProps = {
   user: {
     username: { type: 'string', minLength: 4, maxLength: 20 },

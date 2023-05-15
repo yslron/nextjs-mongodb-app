@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { nanoid } from 'nanoid';
 
 export function findTokenByIdAndType(db, id, type) {

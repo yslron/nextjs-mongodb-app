@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 import { ValidateProps } from '@/api-lib/constants';
-import { findPostById } from '@/api-lib/db';
+import { findPostById, deletePostById } from '@/api-lib/db';
 import { findComments, insertComment } from '@/api-lib/db/comment';
 import { auths, validateBody } from '@/api-lib/middlewares';
 import { getMongoDb } from '@/api-lib/mongodb';
@@ -62,4 +62,24 @@ handler.post(
   }
 );
 
+handler.delete(async (req, res) => {
+  const db = await getMongoDb();
+
+  const post = await findPostById(db, req.query.postId);
+
+  if (!post) {
+    return res.status(404).json({ error: { message: 'Post is not found.' } });
+  }
+
+  const deleteResult = await deletePostById(db, req.query.postId);
+
+  if (deleteResult) {
+    return res.json({ success: true });
+  } else {
+    return res.status(500).json({ error: { message: 'Failed to delete the post.' } });
+  }
+});
+
 export default handler;
+
+//ctrl z

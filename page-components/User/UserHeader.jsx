@@ -14,7 +14,10 @@ const UserHeader = ({ user }) => {
         <div className="content-around ">@{user.username}</div>
       </h2>
       <p className={styles.bio}>{user.bio}</p>
+
     </Container>
+
+
   );
 };
 
