@@ -28,6 +28,10 @@ const Layout = ({ children }) => {
           property="og:image:secure_url"
           content="https://user-images.githubusercontent.com/62204567/238480188-3cfb2d56-6125-4d7b-b3a0-17b48d64dc33.png"
         />
+         <meta
+          property="og:image"
+          content="https://user-images.githubusercontent.com/62204567/238480188-3cfb2d56-6125-4d7b-b3a0-17b48d64dc33.png"
+        />
       </Head>
       
       <Nav />
