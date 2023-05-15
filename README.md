@@ -1,6 +1,6 @@
 ![SparkIdeas](https://github.com/yslron/nextjs-mongodb-app/assets/62204567/3cfb2d56-6125-4d7b-b3a0-17b48d64dc33)
 
-<h1 align="center">Next.js ❤️ MongoDB</h1>
+<h1 align="center">Spark Ideas ⚡</h1>
 
 <div align="center">
   
