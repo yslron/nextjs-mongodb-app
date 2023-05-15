@@ -5,12 +5,12 @@ import styles from './Layout.module.css';
 import Nav from './Nav';
 
 const Layout = ({ children }) => {
-  const pageTitle = 'Spark Idea'; // Replace with your desired page title
+
   return (
     <>
  
       <Head>
-        <title>{pageTitle}</title>
+        <title>Spark Idea</title>
         <meta
           key="viewport"
           name="viewport"
