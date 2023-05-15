@@ -8,7 +8,6 @@ const Layout = ({ children }) => {
 
   return (
     <>
- 
       <Head>
         <title>Spark Idea</title>
         <meta
