@@ -1,4 +1,4 @@
-[![Next.js](https://assets.zeit.co/image/upload/v1538361091/repositories/next-js/next-js.png)](https://nextjs.org)
+![SparkIdeas](https://github.com/yslron/nextjs-mongodb-app/assets/62204567/3cfb2d56-6125-4d7b-b3a0-17b48d64dc33)
 
 <h1 align="center">Next.js ❤️ MongoDB</h1>
 
