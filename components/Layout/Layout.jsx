@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
         />
         <meta
           property="og:image"
-          content="https://repository-images.githubusercontent.com/201392697/5d392300-eef3-11e9-8e20-53310193fbfd"
+          content="https://user-images.githubusercontent.com/62204567/238480188-3cfb2d56-6125-4d7b-b3a0-17b48d64dc33.png"
         />
       </Head>
       
