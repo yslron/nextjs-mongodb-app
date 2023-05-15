@@ -15,7 +15,7 @@ export default function MyApp({ Component, pageProps }) {
         <Head>
           <title>{pageTitle}</title>
           <meta name="description" content={appDescription} />
-          <meta property="og:image" content="https://github.com/yslron/nextjs-mongodb-app/blob/main/public/images/og.png" />
+          <meta property="og:image" content="/public/images/og.png" />
           {/* Other meta tags, stylesheets, etc. */}
         </Head>
         <Component {...pageProps} />
