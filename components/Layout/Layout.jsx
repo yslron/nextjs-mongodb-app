@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
         />
         <meta
           property="og:image"
-          content="https://postimg.cc/qzY5j1fc"
+          content="/public/images/og.png"
         />
       </Head>
       
