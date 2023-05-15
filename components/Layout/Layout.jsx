@@ -6,7 +6,6 @@ import Nav from './Nav';
 
 const Layout = ({ children }) => {
   const pageTitle = 'Spark Idea'; // Replace with your desired page title
-  const appDescription = "Spark Ideas is a tool for the modern world to discover, create, and share ideas with the world.";
   return (
     <>
  
@@ -19,16 +18,16 @@ const Layout = ({ children }) => {
         />
         <meta
           name="description"
-          content={appDescription}
+          content="Spark Ideas is a tool for the modern world to discover, create, and share ideas with the world."
         />
-        <meta property="og:title" content={pageTitle} />
+        <meta property="og:title" content="Spark Idea" />
         <meta
           property="og:description"
-          content={appDescription}
+          content="Spark Ideas is a tool for the modern world to discover, create, and share ideas with the world."
         />
         <meta
           property="og:image"
-          content="/public/images/og.png"
+          content="https://repository-images.githubusercontent.com/201392697/5d392300-eef3-11e9-8e20-53310193fbfd"
         />
       </Head>
       
