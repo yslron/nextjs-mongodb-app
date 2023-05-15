@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
           content="Spark Ideas is a tool for the modern world to discover, create, and share ideas with the world."
         />
         <meta
-          property="og:image"
+          property="og:image:secure_url"
           content="https://user-images.githubusercontent.com/62204567/238480188-3cfb2d56-6125-4d7b-b3a0-17b48d64dc33.png"
         />
       </Head>
