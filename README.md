@@ -4,7 +4,7 @@
 
 <div align="center">
   
-Deployment Link https://nextjs-mongodb-app-git-main-yslron.vercel.app/
+Deployment Link https://nextjs-mongodb-app-yslron.vercel.app/
 
 
 An [**Next.js**](https://github.com/zeit/next.js/) and [**MongoDB**](https://www.mongodb.com/) web application, designed with simplicity for learning and real-world applicability in mind.
